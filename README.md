@@ -119,10 +119,13 @@ Improve user interface with device-specific channel labelling
 Add support for alternative protocols (e.g., WebSockets or Serial)
 
 ## Installation
-bash
-Kopyala
-Düzenle
+
+1. Install dependencies via pip:
+
+```bash
 pip install brainflow scipy python-osc numba
+```
+
 Then:
 
 Place the script inside a Script CHOP in TouchDesigner
