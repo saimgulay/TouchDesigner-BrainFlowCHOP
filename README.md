@@ -123,6 +123,15 @@ pip install brainflow scipy python-osc numba
 * TouchDesigner (latest build)
 * BrainFlow-compatible EEG device (tested with BrainBit only)
 * Python 3 (64-bit, matching TouchDesigner Python environment)
+	Python packages:
+
+	brainflow
+
+	scipy
+
+	python-osc
+
+	numba
 
 This extension requires the BrainFlow Python package to be installed and accessible within TouchDesigner. It is strongly recommended to manage Python environments using TouchDesigner's built-in environment manager: [TD Python Environment Manager](https://derivative.ca/community-post/introducing-touchdesigner-python-environment-manager-tdpyenvmanager/72024)
 
