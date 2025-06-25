@@ -1,0 +1,4 @@
+brainflow
+scipy
+python-osc
+numba
