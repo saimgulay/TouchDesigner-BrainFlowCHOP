@@ -74,6 +74,8 @@ STREAMING_BOARD, PLAYBACK_FILE_BOARD, SYNTHETIC_BOARD
 
 The full list is populated dynamically in the UI from the BrainFlow enumeration.
 
+![BrainFlowCHOP UI](images/BrainFlowCHOP.png)
+
 
 ## Tests
 The system was tested using a 4-channel BrainBit device over Bluetooth. Functional validation included:
