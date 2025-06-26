@@ -4,7 +4,7 @@ This project introduces a real-time EEG data processing pipeline integrated with
 
 ## Installation
 
-1. Install dependencies via pip:
+1. After downloading this repository to your computer, install dependencies via pip:
 
 ```bash
 pip install brainflow scipy python-osc numba
@@ -18,11 +18,8 @@ Enable the script by selecting your board and serial port
 
 ## Dependencies
 ```bashbrainflow
-
 scipy
-
 python-osc
-
 numba
 ```
 ## Requirements
