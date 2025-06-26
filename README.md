@@ -17,14 +17,14 @@ Place the script inside a Script CHOP in TouchDesigner
 Enable the script by selecting your board and serial port
 
 ## Dependencies
-brainflow
+```bashbrainflow
 
 scipy
 
 python-osc
 
 numba
-
+```
 ## Requirements
 TouchDesigner (latest build)
 
