@@ -34,7 +34,7 @@ It is strongly recommended to manage Python environments using TouchDesigner’s
 
 
 ## Limitations
-Only verified on BrainBit (4-channel EEG)
+Only tested on BrainBit (4-channel EEG)
 
 Currently uses CPU-heavy loops for filtering
 
