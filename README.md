@@ -30,7 +30,8 @@ BrainFlow-compatible EEG device (tested with BrainBit only)
 Python 3 (64-bit, matching TouchDesigner Python environment)
 
 It is strongly recommended to manage Python environments using TouchDesigner’s built-in environment manager:
-TD Python Environment Manager
+[**TD Python Environment Manager**](https://derivative.ca/community-post/introducing-touchdesigner-python-environment-manager-tdpyenvmanager/72024)
+
 
 ## Limitations
 Only verified on BrainBit (4-channel EEG)
