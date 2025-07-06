@@ -63,7 +63,7 @@ Custom re-sampling rate
 
 OSC output of selected time and/or frequency domain data
 
-Live garbage collection and resource maintenance
+Live trash collection and resource maintenance
 
 Parameter pages include:
 
