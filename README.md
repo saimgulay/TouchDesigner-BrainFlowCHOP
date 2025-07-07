@@ -51,35 +51,35 @@ This project makes extensive use of the BrainFlow SDK for multi-device EEG data 
 
 The Script CHOP offers the following key functionalities:
 
-EEG data acquisition via BrainFlow-compatible devices
+- EEG data acquisition via BrainFlow-compatible devices
 
-Channel selection and live streaming
+- Channel selection and live streaming
 
-Optional Kalman filtering (fully parameterised)
+- Optional Kalman filtering (fully parameterised)
 
-Optional FFT transformation
+- Optional FFT transformation
 
-Custom re-sampling rate
+- Custom re-sampling rate
 
-OSC output of selected time and/or frequency domain data
+- OSC output of selected time and/or frequency domain data
 
-Live trash collection and resource maintenance
+- Live trash collection and resource maintenance
 
-Parameter pages include:
+- Parameter pages include:
 
-General Settings: Device selection, serial port, re-sampling rate
+- General Settings: Device selection, serial port, re-sampling rate
 
-Time Settings: Update interval configuration
+- Time Settings: Update interval configuration
 
-Filter Settings: Kalman filter toggle and noise parameters
+- Filter Settings: Kalman filter toggle and noise parameters
 
-FFT Settings: FFT toggle
+- FFT Settings: FFT toggle
 
-OSC Settings: Address, port, OSC message path, and channels to send
+- OSC Settings: Address, port, OSC message path, and channels to send
 
 ## Supported Devices
 This script supports all EEG devices available through the BrainFlow API. The currently supported boards (as of latest BrainFlow release) include, but are not limited to:
-
+```
 CYTON_BOARD, CYTON_DAISY_BOARD, CYTON_WIFI_BOARD
 
 GANGLION_BOARD, GANGLION_WIFI_BOARD
@@ -109,7 +109,7 @@ ANT_NEURO_EE_* series (e.g. 211, 212, 223, 430, etc.)
 EXPLORE_8_CHAN_BOARD, EXPLORE_PLUS_8_CHAN_BOARD, EXPLORE_PLUS_32_CHAN_BOARD
 
 STREAMING_BOARD, PLAYBACK_FILE_BOARD, SYNTHETIC_BOARD
-
+```
 The full list is populated dynamically in the UI from the BrainFlow enumeration.
 
 ![BrainFlowCHOP UI](images/BrainFlowCHOP.png)
@@ -117,7 +117,7 @@ The full list is populated dynamically in the UI from the BrainFlow enumeration.
 
 ## Tests
 The system was tested using a 4-channel BrainBit device over Bluetooth. Functional validation included:
-
+```
 Successful device connection and data acquisition
 
 Real-time Kalman filtering with dynamic parameters
@@ -129,7 +129,7 @@ FFT accuracy across sample windows
 OSC communication with external software (Wekinator)
 
 Live parameter updates without requiring script reload
-
+```
 Limitations of testing:
 
 Only one device type (BrainBit) was tested
