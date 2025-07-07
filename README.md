@@ -79,37 +79,37 @@ The Script CHOP offers the following key functionalities:
 
 ## Supported Devices
 This script supports all EEG devices available through the BrainFlow API. The currently supported boards (as of latest BrainFlow release) include, but are not limited to:
-```
-CYTON_BOARD, CYTON_DAISY_BOARD, CYTON_WIFI_BOARD
 
-GANGLION_BOARD, GANGLION_WIFI_BOARD
+-CYTON_BOARD, CYTON_DAISY_BOARD, CYTON_WIFI_BOARD
 
-MUSE_2_BOARD, MUSE_S_BOARD, MUSE_2016_BOARD
+-GANGLION_BOARD, GANGLION_WIFI_BOARD
 
-BRAINBIT_BOARD, BRAINBIT_BLED_BOARD
+-MUSE_2_BOARD, MUSE_S_BOARD, MUSE_2016_BOARD
 
-NOTION_1_BOARD, NOTION_2_BOARD
+-BRAINBIT_BOARD, BRAINBIT_BLED_BOARD
 
-CROWN_BOARD
+-NOTION_1_BOARD, NOTION_2_BOARD
 
-EMOTIBIT_BOARD
+-CROWN_BOARD
 
-FREEEEG32_BOARD, FREEEEG128_BOARD
+-EMOTIBIT_BOARD
 
-GFORCE_PRO_BOARD, GFORCE_DUAL_BOARD
+-FREEEEG32_BOARD, FREEEEG128_BOARD
 
-GALEA_BOARD, GALEA_SERIAL_BOARD, GALEA_BOARD_V4
+-GFORCE_PRO_BOARD, GFORCE_DUAL_BOARD
 
-CALLIBRI_EEG_BOARD, CALLIBRI_EMG_BOARD, CALLIBRI_ECG_BOARD
+-GALEA_BOARD, GALEA_SERIAL_BOARD, GALEA_BOARD_V4
 
-AVAVA_V3_BOARD
+-CALLIBRI_EEG_BOARD, CALLIBRI_EMG_BOARD, CALLIBRI_ECG_BOARD
 
-ANT_NEURO_EE_* series (e.g. 211, 212, 223, 430, etc.)
+-AVAVA_V3_BOARD
 
-EXPLORE_8_CHAN_BOARD, EXPLORE_PLUS_8_CHAN_BOARD, EXPLORE_PLUS_32_CHAN_BOARD
+-ANT_NEURO_EE_* series (e.g. 211, 212, 223, 430, etc.)
 
-STREAMING_BOARD, PLAYBACK_FILE_BOARD, SYNTHETIC_BOARD
-```
+-EXPLORE_8_CHAN_BOARD, EXPLORE_PLUS_8_CHAN_BOARD, EXPLORE_PLUS_32_CHAN_BOARD
+
+-STREAMING_BOARD, PLAYBACK_FILE_BOARD, SYNTHETIC_BOARD
+
 The full list is populated dynamically in the UI from the BrainFlow enumeration.
 
 ![BrainFlowCHOP UI](images/BrainFlowCHOP.png)
@@ -117,19 +117,19 @@ The full list is populated dynamically in the UI from the BrainFlow enumeration.
 
 ## Tests
 The system was tested using a 4-channel BrainBit device over Bluetooth. Functional validation included:
-```
-Successful device connection and data acquisition
 
-Real-time Kalman filtering with dynamic parameters
+-Successful device connection and data acquisition
 
-Re-sampling integrity (250Hz target rate)
+-Real-time Kalman filtering with dynamic parameters
 
-FFT accuracy across sample windows
+-Re-sampling integrity (250Hz target rate)
 
-OSC communication with external software (Wekinator)
+-FFT accuracy across sample windows
 
-Live parameter updates without requiring script reload
-```
+-OSC communication with external software (Wekinator)
+
+-Live parameter updates without requiring script reload
+
 Limitations of testing:
 
 Only one device type (BrainBit) was tested
