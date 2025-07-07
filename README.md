@@ -80,35 +80,35 @@ The Script CHOP offers the following key functionalities:
 ## Supported Devices
 This script supports all EEG devices available through the BrainFlow API. The currently supported boards (as of latest BrainFlow release) include, but are not limited to:
 
--CYTON_BOARD, CYTON_DAISY_BOARD, CYTON_WIFI_BOARD
+- CYTON_BOARD, CYTON_DAISY_BOARD, CYTON_WIFI_BOARD
 
--GANGLION_BOARD, GANGLION_WIFI_BOARD
+- GANGLION_BOARD, GANGLION_WIFI_BOARD
 
--MUSE_2_BOARD, MUSE_S_BOARD, MUSE_2016_BOARD
+- MUSE_2_BOARD, MUSE_S_BOARD, MUSE_2016_BOARD
 
--BRAINBIT_BOARD, BRAINBIT_BLED_BOARD
+- BRAINBIT_BOARD, BRAINBIT_BLED_BOARD
 
--NOTION_1_BOARD, NOTION_2_BOARD
+- NOTION_1_BOARD, NOTION_2_BOARD
 
--CROWN_BOARD
+- CROWN_BOARD
 
--EMOTIBIT_BOARD
+- EMOTIBIT_BOARD
 
--FREEEEG32_BOARD, FREEEEG128_BOARD
+- FREEEEG32_BOARD, FREEEEG128_BOARD
 
--GFORCE_PRO_BOARD, GFORCE_DUAL_BOARD
+- GFORCE_PRO_BOARD, GFORCE_DUAL_BOARD
 
--GALEA_BOARD, GALEA_SERIAL_BOARD, GALEA_BOARD_V4
+- GALEA_BOARD, GALEA_SERIAL_BOARD, GALEA_BOARD_V4
 
--CALLIBRI_EEG_BOARD, CALLIBRI_EMG_BOARD, CALLIBRI_ECG_BOARD
+- CALLIBRI_EEG_BOARD, CALLIBRI_EMG_BOARD, CALLIBRI_ECG_BOARD
 
--AVAVA_V3_BOARD
+- AVAVA_V3_BOARD
 
--ANT_NEURO_EE_* series (e.g. 211, 212, 223, 430, etc.)
+- ANT_NEURO_EE_* series (e.g. 211, 212, 223, 430, etc.)
 
--EXPLORE_8_CHAN_BOARD, EXPLORE_PLUS_8_CHAN_BOARD, EXPLORE_PLUS_32_CHAN_BOARD
+- EXPLORE_8_CHAN_BOARD, EXPLORE_PLUS_8_CHAN_BOARD, EXPLORE_PLUS_32_CHAN_BOARD
 
--STREAMING_BOARD, PLAYBACK_FILE_BOARD, SYNTHETIC_BOARD
+- STREAMING_BOARD, PLAYBACK_FILE_BOARD, SYNTHETIC_BOARD
 
 The full list is populated dynamically in the UI from the BrainFlow enumeration.
 
@@ -118,17 +118,17 @@ The full list is populated dynamically in the UI from the BrainFlow enumeration.
 ## Tests
 The system was tested using a 4-channel BrainBit device over Bluetooth. Functional validation included:
 
--Successful device connection and data acquisition
+- Successful device connection and data acquisition
 
--Real-time Kalman filtering with dynamic parameters
+- Real-time Kalman filtering with dynamic parameters
 
--Re-sampling integrity (250Hz target rate)
+- Re-sampling integrity (250Hz target rate)
 
--FFT accuracy across sample windows
+- FFT accuracy across sample windows
 
--OSC communication with external software (Wekinator)
+- OSC communication with external software (Wekinator)
 
--Live parameter updates without requiring script reload
+- Live parameter updates without requiring script reload
 
 Limitations of testing:
 
