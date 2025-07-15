@@ -1,4 +1,7 @@
 # Brainflow Script CHOP for TouchDesigner
+
+![BrainFlowCHOP UI](images/BrainFlowCHOP.png)
+
 ## Introduction
 This project introduces a real-time EEG data processing pipeline integrated within TouchDesigner via a Script CHOP. It leverages the BrainFlow SDK for device communication, and incorporates signal filtering, re-sampling, FFT transformation, and OSC output functionalities. The core motivation is to allow artists, researchers, and real-time system designers to integrate brain-computer interface (BCI) input directly into generative audiovisual environments without relying on external bridging software.
 
@@ -112,7 +115,7 @@ This script supports all EEG devices available through the BrainFlow API. The cu
 
 The full list is populated dynamically in the UI from the BrainFlow enumeration.
 
-![BrainFlowCHOP UI](images/BrainFlowCHOP.png)
+
 
 
 ## Tests
